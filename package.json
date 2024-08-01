@@ -1,0 +1,12 @@
+{
+  "name": "FAst.FOODS",
+  "version": "1.0.0",
+  "description": "fast foods,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    // your dependencies here
+  }
+}

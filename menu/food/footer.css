@@ -1,0 +1,46 @@
+.footer {
+    padding: 20px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 5%;
+    background-color: rgb(252, 230, 189);
+  }
+  ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: large;
+    color: #333;
+  }
+  .all{
+    font-size: medium;
+    color: #333;
+  }  h3{
+    font-size: x-large;
+    color: rgb(255, 30, 0);
+  }
+
+
+
+@media (max-width: 768px) {
+  .footer {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .footers {
+      margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+      flex-direction: column;
+      text-align: center;
+  }
+  
+  .footers {
+      margin-bottom: 20px;
+  }
+}
